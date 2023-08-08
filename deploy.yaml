@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hope-httpd-deployment
+spec:
+  replicas: 2  # Number of desired replicas (change as needed)
+  selector:
+    matchLabels:
+      app: httpd
+  template:
+    metadata:
+      labels:
+        app: httpd
+    spec:
+      containers:
+        - name: myhopespace
+          image: hope:latest
+          imagePullPolicy: Never  
+          ports:
+            - containerPort: 80
+          
