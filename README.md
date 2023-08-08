@@ -13,7 +13,8 @@ Minikube start- For starting minikube in a local machine
 
 Minikube status - For checking the status of Minkube
 
-kubectl get pods - To list No pods in the cluster
+kubectl get pods - To list No pods in the cluster   
+
 
 kubectl get deploy - To list the deployment
 
@@ -25,3 +26,4 @@ kubectl create -f <service-file-name> - Useful for creation of service file
 
 Minikube service <service-name> - Useful for accessing service inside the cluster 
 
+  ![Screenshot from 2023-08-08 20-42-37](https://github.com/Achanandhi-M/Static-website-in-K8s/assets/110651321/a28ed373-e740-4f8f-ac90-1478de03731b)
